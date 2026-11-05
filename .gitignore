@@ -1,0 +1,9 @@
+PLM Research Management System.pdf
+PLM Research Management System.zip
+
+node_modules/
+dist/
+
+.dev.log
+# Design/reference package (contains institutional documents and the source workbook) - kept local, not published
+PLM Research Management System Initial Flow and design/
