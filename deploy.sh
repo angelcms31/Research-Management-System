@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Build and publish the static site to the gh-pages branch (served by GitHub Pages).
 set -euo pipefail
-npm ci --no-audit --no-fund
+npm install --no-audit --no-fund
 npm run build
 tmp=$(mktemp -d)
 cp -r dist/. "$tmp"
